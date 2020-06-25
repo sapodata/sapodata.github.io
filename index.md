@@ -2,4 +2,4 @@
 * Nothing here yet!!!
 
 # Sapo Data Reports (Test)
-* [Embed Test](/embed-test.html)
+* [Embed Test](http://sapodata.github.io/embed-test.html)
