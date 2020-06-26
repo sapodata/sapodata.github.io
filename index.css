@@ -7,6 +7,8 @@ table { margin:0; padding:0; border-collapse:collapse; }
 td    { margin:0; padding:0; }
 
 /*Classes*/
+.page-div { margin:0; padding:1.5rem; }
+.heading  { font-size:2rem; background:#eee; }
 
 /*Ids*/
 #Div1 { position:absolute; left:0; width:100vw; height:100vh; }
