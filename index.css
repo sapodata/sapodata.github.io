@@ -1,1 +1,15 @@
+/*Everything*/
+* { box-sizing:border-box; }
+
+/*Tags*/
+body  { font-family:monospace; font-size:1rem; line-height:1.5rem; margin:0; padding:0; }
+table { margin:0; padding:0; border-collapse:collapse; }
+td    { margin:0; padding:0; }
+
+/*Classes*/
+
+/*Ids*/
+#Div1 { position:absolute; left:0; width:100vw; height:100vh; }
+#Div2 { position:absolute; left:100vw; width:100vw; height:100vh; }
+#Div3 { position:absolute; left:200vw; width:100vw; height:100vh; }
 /*EOF*/
