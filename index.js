@@ -59,7 +59,9 @@ function go_prev_page(){
 \brief Main function
 */
 async function main(){
-  $(window).on("mousewheel",function(Event){
+
+  //Commented-out, not to spoil the vertical scrollbar
+  /*$(window).on("mousewheel",function(Event){
     if (mw_direction(Event)=="down")
       go_next_page();
     else
@@ -67,7 +69,7 @@ async function main(){
       go_prev_page();
     else
       log("Code doesn't get here!");
-  });
+  });*/
 }
 
 $(main);

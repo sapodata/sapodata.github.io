@@ -11,11 +11,23 @@ table { margin:0; padding:0; border-collapse:collapse; }
 td    { margin:0; padding:0; }
 
 /*Classes*/
-.page-div { margin:0; padding:1.5rem; }
-.heading  { font-size:2rem; background:#eee; }
+.page-div       { margin:0; padding:1.5rem; overflow-y:scroll; }
+.page-div-inner { margin-left:25vw; width:50vw; }
+.heading        { font-size:2rem; background:#eee; }
 
 /*Ids*/
 #Div1 { position:absolute; left:0; width:100vw; height:100vh; background:#fee; }
 #Div2 { position:absolute; left:100vw; width:100vw; height:100vh; background:#efe; }
 #Div3 { position:absolute; left:200vw; width:100vw; height:100vh; background:#eef; }
+
+#Go-Prev-Btn { 
+  cursor:pointer; width:12.5vw; height:12.5vw; background:; left:6.25vw; top:calc(50vh - 6.25vw);
+  position:fixed; display:flex; justify-content:center; align-items:center;
+  border-left:1.5rem solid #eee; border-top:1.5rem solid #eee; transform:rotate(-45deg);
+}
+#Go-Next-Btn { 
+  cursor:pointer; width:12.5vw; height:12.5vw; background:; left:calc(75vw + 6.25vw); top:calc(50vh - 6.25vw);
+  position:fixed; display:flex; justify-content:center; align-items:center;
+  border-right:1.5rem solid #eee; border-top:1.5rem solid #eee; transform:rotate(45deg);
+}
 /*EOF*/
