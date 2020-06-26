@@ -2,7 +2,11 @@
 * { box-sizing:border-box; }
 
 /*Tags*/
-body  { font-family:monospace; font-size:1rem; line-height:1.5rem; margin:0; padding:0; }
+body { 
+  font-family:monospace; font-size:1rem; line-height:1.5rem; margin:0; padding:0; 
+  overflow-x:hidden; overflow-y:hidden;
+}
+
 table { margin:0; padding:0; border-collapse:collapse; }
 td    { margin:0; padding:0; }
 
@@ -11,7 +15,7 @@ td    { margin:0; padding:0; }
 .heading  { font-size:2rem; background:#eee; }
 
 /*Ids*/
-#Div1 { position:absolute; left:0; width:100vw; height:100vh; }
-#Div2 { position:absolute; left:100vw; width:100vw; height:100vh; }
-#Div3 { position:absolute; left:200vw; width:100vw; height:100vh; }
+#Div1 { position:absolute; left:0; width:100vw; height:100vh; background:#fee; }
+#Div2 { position:absolute; left:100vw; width:100vw; height:100vh; background:#efe; }
+#Div3 { position:absolute; left:200vw; width:100vw; height:100vh; background:#eef; }
 /*EOF*/
